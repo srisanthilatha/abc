@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-24T07:58:12.979Z",
+        "start_timestamp": "2020-02-24T08:33:49.840Z",
         "line": 10,
         "name": "successful login",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21268852100,
+              "duration": 27468688700,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 716364300,
+              "duration": 912780900,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 254200,
+              "duration": 247700,
               "status": "passed"
             },
             "line": 6,
