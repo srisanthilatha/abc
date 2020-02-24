@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T07:58:12.979Z",
+        "line": 10,
+        "name": "successful login",
+        "description": "",
+        "id": "login-feature;successful-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21268852100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i enter username",
+            "match": {
+              "location": "Login.i_enter_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 716364300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters \"Lalitha\" , \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Login.enters(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 254200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login button",
+            "match": {
+              "location": "Login.click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "classpath:dummy1/login.feature",
+    "tags": []
+  }
+]
